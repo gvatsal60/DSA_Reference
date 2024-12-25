@@ -11,10 +11,6 @@
  * or configuration. Feel free to modify and expand the snippets to meet your
  * specific coding requirements.
  */
-<<<<<<< HEAD
-
-=======
->>>>>>> 0ee82d6 (Initial commit)
 {
   /***************************************************************************************
    * Header File Template
@@ -25,11 +21,7 @@
     "body": [
       "/***************************************************************************************",
       " * File: ${TM_FILENAME}",
-<<<<<<< HEAD
-      " * Author: ${USER}",
-=======
       " * Author: @gvatsal60",
->>>>>>> 0ee82d6 (Initial commit)
       " * Date: ${CURRENT_DATE}-${CURRENT_MONTH_NAME_SHORT}-${CURRENT_YEAR}",
       " * Description: Brief description of the file's purpose.",
       " **************************************************************************************/",
@@ -38,11 +30,7 @@
       " * License",
       " **************************************************************************************/",
       "/*",
-<<<<<<< HEAD
-      " * This file is licensed under the MIT License.",
-=======
       " * This file is licensed under the Apache 2.0 License.",
->>>>>>> 0ee82d6 (Initial commit)
       " * License information should be updated as necessary.",
       " */",
       "",
@@ -52,11 +40,7 @@
       "#ifndef _${TM_FILENAME_BASE/(.*)/${1:/upcase}/}_H_",
       "#define _${TM_FILENAME_BASE/(.*)/${1:/upcase}/}_H_",
       "",
-<<<<<<< HEAD
-      "#include <> ${LINE_COMMENT} TODO",
-=======
       "#include <bits/stdc++.h>",
->>>>>>> 0ee82d6 (Initial commit)
       "",
       "/***************************************************************************************",
       " * Constants",

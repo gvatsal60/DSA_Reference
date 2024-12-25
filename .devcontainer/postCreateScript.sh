@@ -32,7 +32,6 @@
 ##########################################################################################
 readonly SNIPPETS_DIR="snippets"
 readonly VSCODE_DIR=".vscode"
-readonly TASK_FILE="${SNIPPETS_DIR}/tasks.json"
 readonly SNIPPET_FILES_PATTERN="*.code-snippets"
 
 readonly ALIAS_SRC_URL="https://raw.githubusercontent.com/gvatsal60/Linux-Aliases/HEAD/install.sh"
