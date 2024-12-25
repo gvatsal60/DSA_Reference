@@ -85,7 +85,7 @@
       }
     }
   },
-  "image": "mcr.microsoft.com/devcontainers/cpp:noble",
+  "image": "mcr.microsoft.com/devcontainers/cpp",
   "mounts": [
     "source=${localWorkspaceFolder}/snippets,target=${containerWorkspaceFolder}/.vscode,type=bind,consistency=cached"
   ],
