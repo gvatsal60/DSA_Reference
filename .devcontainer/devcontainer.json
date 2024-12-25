@@ -6,16 +6,12 @@
     "vscode": {
       "extensions": [
         "DavidAnson.vscode-markdownlint",
-        "Gruntfuggly.todo-tree",
-        "PKief.material-icon-theme",
-        "SonarSource.sonarlint-vscode",
         "Tyriar.sort-lines",
         "bradzacher.vscode-copy-filename",
         "esbenp.prettier-vscode",
+        "formulahendry.code-runner",
         "foxundermoon.shell-format",
-        "gurumukhi.selected-lines-count",
-        "marvhen.reflow-markdown",
-        "ms-azuretools.vscode-docker",
+        "ms-vscode.cpptools",
         "streetsidesoftware.code-spell-checker",
         "usernamehw.errorlens"
       ],
@@ -24,6 +20,7 @@
           "C_Cpp.autocompleteAddParentheses": true,
           "C_Cpp.codeAnalysis.clangTidy.enabled": true,
           "C_Cpp.intelliSenseEngine": "default",
+          "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 2, ColumnLimit: 80}",
           "editor.defaultFormatter": "ms-vscode.cpptools"
         },
         "[dockercompose]": {
@@ -88,7 +85,7 @@
       }
     }
   },
-  "image": "mcr.microsoft.com/devcontainers/javascript-node",
+  "image": "mcr.microsoft.com/devcontainers/cpp:noble",
   "mounts": [
     "source=${localWorkspaceFolder}/snippets,target=${containerWorkspaceFolder}/.vscode,type=bind,consistency=cached"
   ],
