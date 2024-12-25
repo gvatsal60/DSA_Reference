@@ -1,12 +1,12 @@
-# Project Template
+# DSA Reference
 
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://img.shields.io/github/license/gvatsal60/project-template)
-[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/gvatsal60/project-template/master.svg)](https://results.pre-commit.ci/latest/github/gvatsal60/project-template/HEAD)
-[![CodeFactor](https://www.codefactor.io/repository/github/gvatsal60/project-template/badge)](https://www.codefactor.io/repository/github/gvatsal60/project-template)
-![GitHub pull-requests](https://img.shields.io/github/issues-pr/gvatsal60/project-template)
-![GitHub Issues](https://img.shields.io/github/issues/gvatsal60/project-template)
-![GitHub forks](https://img.shields.io/github/forks/gvatsal60/project-template)
-![GitHub stars](https://img.shields.io/github/stars/gvatsal60/project-template)
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://img.shields.io/github/license/gvatsal60/DSA_Reference)
+[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/gvatsal60/DSA_Reference/master.svg)](https://results.pre-commit.ci/latest/github/gvatsal60/DSA_Reference/HEAD)
+[![CodeFactor](https://www.codefactor.io/repository/github/gvatsal60/DSA_Reference/badge)](https://www.codefactor.io/repository/github/gvatsal60/DSA_Reference)
+![GitHub pull-requests](https://img.shields.io/github/issues-pr/gvatsal60/DSA_Reference)
+![GitHub Issues](https://img.shields.io/github/issues/gvatsal60/DSA_Reference)
+![GitHub forks](https://img.shields.io/github/forks/gvatsal60/DSA_Reference)
+![GitHub stars](https://img.shields.io/github/stars/gvatsal60/DSA_Reference)
 
 This repository serves as a foundational template for new projects,
 equipped with essential tools for maintaining code quality and documentation consistency.
@@ -27,8 +27,8 @@ To install Project Template, follow these steps:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/gvatsal60/project-template.git
-   cd project-template
+   git clone https://github.com/gvatsal60/DSA_Reference.git
+   cd DSA_Reference
    ```
 
 2. **Customize According to Your Project:**
@@ -39,11 +39,11 @@ To install Project Template, follow these steps:
 ## Contributing
 
 Contributions are welcome! Please read our
-[Contribution Guidelines](https://github.com/gvatsal60/project-template/blob/HEAD/CONTRIBUTING.md)
+[Contribution Guidelines](https://github.com/gvatsal60/DSA_Reference/blob/HEAD/CONTRIBUTING.md)
 before submitting pull requests.
 
 ## License
 
 This project is licensed under the Apache License 2.0 License -
-see the [LICENSE](https://github.com/gvatsal60/project-template/blob/HEAD/LICENSE)
+see the [LICENSE](https://github.com/gvatsal60/DSA_Reference/blob/HEAD/LICENSE)
 file for details.
