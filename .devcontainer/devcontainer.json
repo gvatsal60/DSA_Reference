@@ -9,8 +9,8 @@
         "Tyriar.sort-lines",
         "bradzacher.vscode-copy-filename",
         "esbenp.prettier-vscode",
-        "formulahendry.code-runner",
         "foxundermoon.shell-format",
+        "ms-azuretools.vscode-docker",
         "ms-vscode.cpptools",
         "streetsidesoftware.code-spell-checker",
         "usernamehw.errorlens"
