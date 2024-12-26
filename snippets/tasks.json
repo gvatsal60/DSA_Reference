@@ -1,0 +1,50 @@
+{
+  "tasks": [
+    {
+      "args": [
+        "-f",
+        "$((1*1024))",
+        "&&",
+        "/usr/bin/g++",
+        "-Werror",
+        "-Wall",
+        "-fsanitize=address",
+        "-fstack-protector-all",
+        "-std=c++20",
+        "-g",
+        "${file}",
+        "-I",
+        "${workspaceFolder}/inc",
+        "-o",
+        "${fileDirname}/${fileBasenameNoExtension}.out",
+        "&&",
+        "${fileDirname}/${fileBasenameNoExtension}.out",
+        "&&",
+        "sleep",
+        "2",
+        "&&",
+        "rm",
+        "-f",
+        "${fileDirname}/${fileBasenameNoExtension}.out",
+        "&&",
+        "rm",
+        "-rf",
+        "${fileDirname}/${fileBasenameNoExtension}.out.dSYM"
+      ],
+      "command": "ulimit",
+      "group": {
+        "isDefault": true,
+        "kind": "build"
+      },
+      "label": "Compile & Run DSA",
+      "options": {
+        "cwd": "${fileDirname}"
+      },
+      "problemMatcher": [
+        "$gcc"
+      ],
+      "type": "shell"
+    }
+  ],
+  "version": "2.0.0"
+}
