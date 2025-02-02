@@ -14,32 +14,26 @@
 /***************************************************************************************
  * Global Functions Definitions
  **************************************************************************************/
-struct Node
-{
+struct Node {
   int data{};
   struct Node *next{};
   Node() = default;
-  Node(int x)
-  {
+  Node(int x) {
     data = x;
     next = nullptr;
   }
 };
 
-class Solution
-{
+class Solution {
 public:
-  Node *insertAtEnd(Node *head, int x)
-  {
-    if (head == nullptr)
-    {
+  Node *insertAtEnd(Node *head, int x) {
+    if (head == nullptr) {
       return nullptr;
     }
 
     Node *real = head;
 
-    while (real->next != nullptr)
-    {
+    while (real->next != nullptr) {
       real = real->next;
     }
 
@@ -48,11 +42,9 @@ public:
     return head;
   }
 
-  Node printList(Node *head)
-  {
+  Node printList(Node *head) {
     Node *real = head;
-    while (real != nullptr)
-    {
+    while (real != nullptr) {
       std::cout << real->data << "->";
       real = real->next;
     }
@@ -60,8 +52,7 @@ public:
   }
 };
 
-int main(int argc, char const *argv[])
-{
+int main(int argc, char const *argv[]) {
   Node ll{};
   ll.data = 1;
   ll.next = new Node(2);
