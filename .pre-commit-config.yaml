@@ -47,12 +47,12 @@ repos:
       - id: clang-format
   # ESLint for linting JavaScript and TypeScript files
   - repo: https://github.com/pre-commit/mirrors-eslint
-    rev: "v9.19.0"
+    rev: "v9.22.0"
     hooks:
       - id: eslint
   # Runs mypy to check Python type annotations.
   - repo: https://github.com/pre-commit/mirrors-mypy
-    rev: "v1.14.1"
+    rev: "v1.15.0"
     hooks:
       - id: mypy
   # Lints SCSS files to enforce style and best practices.
@@ -99,7 +99,7 @@ repos:
       - id: actionlint
   # Yamlfmt for formatting YAML files
   - repo: https://github.com/google/yamlfmt
-    rev: "v0.15.0"
+    rev: "v0.16.0"
     hooks:
       - id: yamlfmt
   # Codespell for detecting common misspellings in code
@@ -114,24 +114,24 @@ repos:
       - id: checkmake
   # SQLFluff for linting and fixing SQL files
   - repo: https://github.com/sqlfluff/sqlfluff
-    rev: "3.3.0"
+    rev: "3.3.1"
     hooks:
       - id: sqlfluff-lint
       - id: sqlfluff-fix
   # RuboCop for linting Ruby files
   - repo: https://github.com/rubocop/rubocop
-    rev: "v1.71.1"
+    rev: "v1.73.2"
     hooks:
       - id: rubocop
   # Terraform-py for formatting and validating Terraform files
   - repo: https://github.com/AleksaC/terraform-py
-    rev: "v1.10.5"
+    rev: "v1.11.1"
     hooks:
       - id: tf-fmt
       - id: tf-validate
   # Gitleaks for detecting secrets in Git repositories
   - repo: https://github.com/gitleaks/gitleaks
-    rev: "v8.23.3"
+    rev: "v8.24.0"
     hooks:
       - id: gitleaks
   # Talisman for pre-commit Git hooks to detect sensitive files
