@@ -47,7 +47,7 @@ repos:
       - id: clang-format
   # ESLint for linting JavaScript and TypeScript files
   - repo: https://github.com/pre-commit/mirrors-eslint
-    rev: "v9.22.0"
+    rev: "v9.23.0"
     hooks:
       - id: eslint
   # Runs mypy to check Python type annotations.
@@ -131,12 +131,12 @@ repos:
       - id: tf-validate
   # Gitleaks for detecting secrets in Git repositories
   - repo: https://github.com/gitleaks/gitleaks
-    rev: "v8.24.0"
+    rev: "v8.24.2"
     hooks:
       - id: gitleaks
   # Talisman for pre-commit Git hooks to detect sensitive files
   - repo: https://github.com/thoughtworks/talisman
-    rev: "v1.32.1"
+    rev: "v1.33.0"
     hooks:
       - id: talisman-commit
         entry: cmd --githook pre-commit
