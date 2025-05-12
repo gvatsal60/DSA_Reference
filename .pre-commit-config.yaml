@@ -42,7 +42,7 @@ repos:
       - id: python-use-type-annotations
   # Clang-format for formatting C, C++, and JavaScript files
   - repo: https://github.com/pre-commit/mirrors-clang-format
-    rev: "v20.1.3"
+    rev: "v20.1.4"
     hooks:
       - id: clang-format
   # ESLint for linting JavaScript and TypeScript files
