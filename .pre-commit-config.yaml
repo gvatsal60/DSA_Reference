@@ -42,12 +42,12 @@ repos:
       - id: python-use-type-annotations
   # Clang-format for formatting C, C++, and JavaScript files
   - repo: https://github.com/pre-commit/mirrors-clang-format
-    rev: "v20.1.6"
+    rev: "v20.1.7"
     hooks:
       - id: clang-format
   # ESLint for linting JavaScript and TypeScript files
   - repo: https://github.com/pre-commit/mirrors-eslint
-    rev: "v9.29.0"
+    rev: "v9.30.0"
     hooks:
       - id: eslint
   # Runs mypy to check Python type annotations.
@@ -99,7 +99,7 @@ repos:
       - id: actionlint
   # Yamlfmt for formatting YAML files
   - repo: https://github.com/google/yamlfmt
-    rev: "v0.17.1"
+    rev: "v0.17.2"
     hooks:
       - id: yamlfmt
   # Codespell for detecting common misspellings in code
