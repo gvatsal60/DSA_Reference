@@ -42,17 +42,17 @@ repos:
       - id: python-use-type-annotations
   # Clang-format for formatting C, C++, and JavaScript files
   - repo: https://github.com/pre-commit/mirrors-clang-format
-    rev: "v21.1.0"
+    rev: "v21.1.1"
     hooks:
       - id: clang-format
   # ESLint for linting JavaScript and TypeScript files
   - repo: https://github.com/pre-commit/mirrors-eslint
-    rev: "v9.35.0"
+    rev: "v9.36.0"
     hooks:
       - id: eslint
   # Runs mypy to check Python type annotations.
   - repo: https://github.com/pre-commit/mirrors-mypy
-    rev: "v1.18.1"
+    rev: "v1.18.2"
     hooks:
       - id: mypy
   # Lints SCSS files to enforce style and best practices.
@@ -125,7 +125,7 @@ repos:
       - id: rubocop
   # Terraform-py for formatting and validating Terraform files
   - repo: https://github.com/AleksaC/terraform-py
-    rev: "v1.13.2"
+    rev: "v1.13.3"
     hooks:
       - id: tf-fmt
       - id: tf-validate
